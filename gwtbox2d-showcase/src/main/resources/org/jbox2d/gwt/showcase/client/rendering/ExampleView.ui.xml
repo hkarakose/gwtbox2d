@@ -1,0 +1,14 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    
+ <ui:style>
+   .instructions {
+     padding: 5px 5px;
+   }
+ </ui:style>
+  
+  <g:VerticalPanel>
+    <g:HTML ui:field="instructions" styleName="{style.instructions}"></g:HTML>
+    <g:SimplePanel ui:field="canvasContainer"/>
+  </g:VerticalPanel>
+</ui:UiBinder>
